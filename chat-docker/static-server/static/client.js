@@ -327,7 +327,7 @@
 	            processMessage(message);
 	            break;
 	        case "update":
-	            updateContactList(message.contactList);
+	            updateContactList(message.contact_list);
 	            break;
 	        default: break;
 	    }
